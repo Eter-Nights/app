@@ -1,6 +1,8 @@
 [package]
-name = "hello-world"
+name = "bitcask"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+log = "0"
+fs4 = "0"
