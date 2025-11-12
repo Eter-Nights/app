@@ -1,6 +1,9 @@
 [package]
-name = "hello-world"
+name = "mvcc"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+lazy_static = "1"
+bincode = "1"
+serde = { version = "1", features = ["derive"] }
