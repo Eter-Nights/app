@@ -1,6 +1,13 @@
 [package]
-name = "hello-world"
+name = "tcp"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "server"
+
+[[bin]]
+name = "client"
+
 [dependencies]
+tokio = { version = "1", features = ["full"] }
