@@ -1,6 +1,9 @@
 [package]
-name = "hello-world"
+name = "mandel-draw"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+num="0"
+image="0"
+rayon="1"
