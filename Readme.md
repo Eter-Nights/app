@@ -1,9 +1,10 @@
 ### 这个仓库包含多个项目分支，每个分支都专注于不同的编程语言、框架或技术栈。
 
-#### hello-world 是 Rust 语言的第一个示例程序，它展示了如何使用 Rust 编写一个简单的程序。
+#### 聊天服务器的简单实现
 
 运行命令：
 
 ```
-cargo run
+cargo run --bin server -- localhost:8080
+cargo run --bin client -- localhost:8080
 ```
